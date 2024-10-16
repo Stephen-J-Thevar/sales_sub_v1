@@ -1,0 +1,14 @@
+.rs-input-group {
+  border-radius: 0;
+  height: 25px;
+  border: 1px solid #000;
+}
+.rs-input {
+  color: #000;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.rs-icon {
+  color: #000;
+}

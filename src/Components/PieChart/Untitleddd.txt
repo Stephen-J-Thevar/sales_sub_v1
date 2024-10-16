@@ -1,0 +1,789 @@
+[
+    {
+        "key": {
+            "retailed": "FY24",
+            "lob": "Buses"
+        },
+        "doc_count": 35686,
+        "revenue": {
+            "value": 69234623.93111801
+        },
+        "veh": {
+            "value": 33834
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY24",
+            "lob": "HCV"
+        },
+        "doc_count": 177996,
+        "revenue": {
+            "value": 387254657.27354443
+        },
+        "veh": {
+            "value": 152379
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY24",
+            "lob": "ILMCV"
+        },
+        "doc_count": 88616,
+        "revenue": {
+            "value": 143831038.63932002
+        },
+        "veh": {
+            "value": 81614
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY24",
+            "lob": "Magic_Winger"
+        },
+        "doc_count": 9038,
+        "revenue": {
+            "value": 12347494.759443283
+        },
+        "veh": {
+            "value": 8794
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY24",
+            "lob": "Pickups"
+        },
+        "doc_count": 68703,
+        "revenue": {
+            "value": 187609.88679981232
+        },
+        "veh": {
+            "value": 68591
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY24",
+            "lob": "SCV Cargo"
+        },
+        "doc_count": 128776,
+        "revenue": {
+            "value": 4356.559906005859
+        },
+        "veh": {
+            "value": 128628
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY24",
+            "lob": "SCVPass"
+        },
+        "doc_count": 19398,
+        "revenue": {
+            "value": 21703232.66156578
+        },
+        "veh": {
+            "value": 18519
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY24",
+            "lob": "Yodha_Ace_EV"
+        },
+        "doc_count": 20827,
+        "revenue": {
+            "value": 1432171.42360878
+        },
+        "veh": {
+            "value": 20616
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY_23_and_before",
+            "lob": "Buses"
+        },
+        "doc_count": 31785,
+        "revenue": {
+            "value": 12018584.096998215
+        },
+        "veh": {
+            "value": 31042
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY_23_and_before",
+            "lob": "HCV"
+        },
+        "doc_count": 236929,
+        "revenue": {
+            "value": 38333879.93971479
+        },
+        "veh": {
+            "value": 225492
+        }
+    }
+]
+check ={
+    "count": {
+        "FY24": {
+            "Buses": 33834,
+            "HCV": 152379,
+            "ILMCV": 81614,
+            "Magic_Winger": 8794,
+            "Pickups": 68591,
+            "SCV Cargo": 128628,
+            "SCVPass": 18519,
+            "Yodha_Ace_EV": 20616,
+            "total": 512975,
+            "index": 0
+        },
+        "FY_23_and_before": {
+            "Buses": 31042,
+            "HCV": 225492,
+            "total": 848877,
+            "index": 0
+        }
+    },
+    "revenue": {
+        "FY24": {
+            "Buses": 69234623.93111801,
+            "HCV": 387254657.27354443,
+            "ILMCV": 143831038.63932002,
+            "Magic_Winger": 12347494.759443283,
+            "Pickups": 187609.88679981232,
+            "SCV Cargo": 4356.559906005859,
+            "SCVPass": 21703232.66156578,
+            "Yodha_Ace_EV": 1432171.42360878,
+            "total": 635995185.1353061,
+            "index": 0
+        },
+        "FY_23_and_before": {
+            "Buses": 12018584.096998215,
+            "HCV": 38333879.93971479,
+            "total": 127327687.58530831,
+            "index": 0
+        }
+    }
+}
+
+newCount = [
+    {
+        "key": {
+            "new_and_existing": "FY24"
+        },
+        "doc_count": 549040,
+        "revenue": {
+            "value": 635995185.1353061
+        },
+        "veh": {
+            "value": 512975
+        }
+    },
+    {
+        "key": {
+            "new_and_existing": "FY_23_and_before"
+        },
+        "doc_count": 867593,
+        "revenue": {
+            "value": 127327687.58530831
+        },
+        "veh": {
+            "value": 848877
+        }
+    }
+]
+
+stdCnt =[
+  {
+    "key": {
+      "retailed": "FY24",
+      "planTen": "1Y"
+    },
+    "doc_count": 221,
+    "revenue": {
+      "value": 1077611.3815917969
+    },
+    "veh": {
+      "value": 221
+    }
+  },
+  {
+    "key": {
+      "retailed": "FY24",
+      "planTen": "2Y"
+    },
+    "doc_count": 3,
+    "revenue": {
+      "value": 29459.8798828125
+    },
+    "veh": {
+      "value": 3
+    }
+  },
+  {
+    "key": {
+      "retailed": "FY24",
+      "planTen": "3Y"
+    },
+    "doc_count": 28,
+    "revenue": {
+      "value": 390731.03125
+    },
+    "veh": {
+      "value": 28
+    }
+  },
+  {
+    "key": {
+      "retailed": "FY_23_and_before",
+      "planTen": "1Y"
+    },
+    "doc_count": 149,
+    "revenue": {
+      "value": 711516.3916015625
+    },
+    "veh": {
+      "value": 149
+    }
+  },
+  {
+    "key": {
+      "retailed": "FY_23_and_before",
+      "planTen": "2Y"
+    },
+    "doc_count": 7,
+    "revenue": {
+      "value": 63829.73974609375
+    },
+    "veh": {
+      "value": 7
+    }
+  },
+  {
+    "key": {
+      "retailed": "FY_23_and_before",
+      "planTen": "3Y"
+    },
+    "doc_count": 39,
+    "revenue": {
+      "value": 530277.8291015625
+    },
+    "veh": {
+      "value": 39
+    }
+  }
+]
+
+stdLobTen = [
+    {
+        "key": {
+            "retailed": "FY24",
+            "lob": "Buses",
+            "planTen": "1Y"
+        },
+        "doc_count": 2866,
+        "revenue": {
+            "value": 13073265.95157051
+        },
+        "veh": {
+            "value": 2765
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY24",
+            "lob": "Buses",
+            "planTen": "2Y"
+        },
+        "doc_count": 1176,
+        "revenue": {
+            "value": 10162356.184570312
+        },
+        "veh": {
+            "value": 1176
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY24",
+            "lob": "Buses",
+            "planTen": "3Y"
+        },
+        "doc_count": 80,
+        "revenue": {
+            "value": 954635.306640625
+        },
+        "veh": {
+            "value": 80
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY24",
+            "lob": "HCV",
+            "planTen": "1Y"
+        },
+        "doc_count": 39143,
+        "revenue": {
+            "value": 181992258.53564453
+        },
+        "veh": {
+            "value": 36551
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY24",
+            "lob": "HCV",
+            "planTen": "2Y"
+        },
+        "doc_count": 3672,
+        "revenue": {
+            "value": 32239945.423828125
+        },
+        "veh": {
+            "value": 3661
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY24",
+            "lob": "HCV",
+            "planTen": "3Y"
+        },
+        "doc_count": 1790,
+        "revenue": {
+            "value": 22192998.825195312
+        },
+        "veh": {
+            "value": 1790
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY24",
+            "lob": "ILMCV",
+            "planTen": "1Y"
+        },
+        "doc_count": 14019,
+        "revenue": {
+            "value": 59846463.24707031
+        },
+        "veh": {
+            "value": 13229
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY24",
+            "lob": "ILMCV",
+            "planTen": "2Y"
+        },
+        "doc_count": 2350,
+        "revenue": {
+            "value": 17098538.151367188
+        },
+        "veh": {
+            "value": 2344
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY24",
+            "lob": "ILMCV",
+            "planTen": "3Y"
+        },
+        "doc_count": 306,
+        "revenue": {
+            "value": 3316818.322265625
+        },
+        "veh": {
+            "value": 306
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY24",
+            "lob": "Magic_Winger",
+            "planTen": "1Y"
+        },
+        "doc_count": 625,
+        "revenue": {
+            "value": 1373209.6613769531
+        },
+        "veh": {
+            "value": 614
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY24",
+            "lob": "Magic_Winger",
+            "planTen": "2Y"
+        },
+        "doc_count": 295,
+        "revenue": {
+            "value": 1051909.6069335938
+        },
+        "veh": {
+            "value": 295
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY24",
+            "lob": "Magic_Winger",
+            "planTen": "3Y"
+        },
+        "doc_count": 57,
+        "revenue": {
+            "value": 258834.85546875
+        },
+        "veh": {
+            "value": 57
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY24",
+            "lob": "Pickups",
+            "planTen": "1Y"
+        },
+        "doc_count": 22,
+        "revenue": {
+            "value": 57001.08056640625
+        },
+        "veh": {
+            "value": 22
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY24",
+            "lob": "Pickups",
+            "planTen": "3Y"
+        },
+        "doc_count": 2,
+        "revenue": {
+            "value": 13967.423828125
+        },
+        "veh": {
+            "value": 2
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY24",
+            "lob": "SCVPass",
+            "planTen": "1Y"
+        },
+        "doc_count": 1391,
+        "revenue": {
+            "value": 3593243.400390625
+        },
+        "veh": {
+            "value": 1342
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY24",
+            "lob": "SCVPass",
+            "planTen": "2Y"
+        },
+        "doc_count": 414,
+        "revenue": {
+            "value": 1957926.7592773438
+        },
+        "veh": {
+            "value": 413
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY24",
+            "lob": "SCVPass",
+            "planTen": "3Y"
+        },
+        "doc_count": 22,
+        "revenue": {
+            "value": 153630.90625
+        },
+        "veh": {
+            "value": 22
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY24",
+            "lob": "Yodha_Ace_EV",
+            "planTen": "1Y"
+        },
+        "doc_count": 173,
+        "revenue": {
+            "value": 395982.6325683594
+        },
+        "veh": {
+            "value": 171
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY24",
+            "lob": "Yodha_Ace_EV",
+            "planTen": "2Y"
+        },
+        "doc_count": 5,
+        "revenue": {
+            "value": 21290.0322265625
+        },
+        "veh": {
+            "value": 5
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY24",
+            "lob": "Yodha_Ace_EV",
+            "planTen": "3Y"
+        },
+        "doc_count": 5,
+        "revenue": {
+            "value": 27909.35986328125
+        },
+        "veh": {
+            "value": 5
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY_23_and_before",
+            "lob": "Buses",
+            "planTen": "1Y"
+        },
+        "doc_count": 515,
+        "revenue": {
+            "value": 2308189.1166992188
+        },
+        "veh": {
+            "value": 498
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY_23_and_before",
+            "lob": "Buses",
+            "planTen": "2Y"
+        },
+        "doc_count": 353,
+        "revenue": {
+            "value": 3342442.2900390625
+        },
+        "veh": {
+            "value": 353
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY_23_and_before",
+            "lob": "Buses",
+            "planTen": "3Y"
+        },
+        "doc_count": 17,
+        "revenue": {
+            "value": 228066.2646484375
+        },
+        "veh": {
+            "value": 17
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY_23_and_before",
+            "lob": "HCV",
+            "planTen": "1Y"
+        },
+        "doc_count": 163,
+        "revenue": {
+            "value": 451264.4599609377
+        },
+        "veh": {
+            "value": 158
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY_23_and_before",
+            "lob": "HCV",
+            "planTen": "2Y"
+        },
+        "doc_count": 2,
+        "revenue": {
+            "value": 16389.01953125
+        },
+        "veh": {
+            "value": 2
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY_23_and_before",
+            "lob": "HCV",
+            "planTen": "3Y"
+        },
+        "doc_count": 1,
+        "revenue": {
+            "value": 7106.5498046875
+        },
+        "veh": {
+            "value": 1
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY_23_and_before",
+            "lob": "ILMCV",
+            "planTen": "1Y"
+        },
+        "doc_count": 6192,
+        "revenue": {
+            "value": 25781501.15625
+        },
+        "veh": {
+            "value": 5715
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY_23_and_before",
+            "lob": "ILMCV",
+            "planTen": "2Y"
+        },
+        "doc_count": 1491,
+        "revenue": {
+            "value": 11521571.16796875
+        },
+        "veh": {
+            "value": 1490
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY_23_and_before",
+            "lob": "ILMCV",
+            "planTen": "3Y"
+        },
+        "doc_count": 387,
+        "revenue": {
+            "value": 4593871.45703125
+        },
+        "veh": {
+            "value": 387
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY_23_and_before",
+            "lob": "Magic_Winger",
+            "planTen": "1Y"
+        },
+        "doc_count": 166,
+        "revenue": {
+            "value": 387307.26953125
+        },
+        "veh": {
+            "value": 160
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY_23_and_before",
+            "lob": "Magic_Winger",
+            "planTen": "2Y"
+        },
+        "doc_count": 28,
+        "revenue": {
+            "value": 113897.63330078125
+        },
+        "veh": {
+            "value": 28
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY_23_and_before",
+            "lob": "Magic_Winger",
+            "planTen": "3Y"
+        },
+        "doc_count": 9,
+        "revenue": {
+            "value": 54797.52685546875
+        },
+        "veh": {
+            "value": 9
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY_23_and_before",
+            "lob": "SCVPass",
+            "planTen": "1Y"
+        },
+        "doc_count": 107,
+        "revenue": {
+            "value": 274116.3586425781
+        },
+        "veh": {
+            "value": 105
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY_23_and_before",
+            "lob": "SCVPass",
+            "planTen": "2Y"
+        },
+        "doc_count": 20,
+        "revenue": {
+            "value": 96628.43115234375
+        },
+        "veh": {
+            "value": 20
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY_23_and_before",
+            "lob": "Yodha_Ace_EV",
+            "planTen": "1Y"
+        },
+        "doc_count": 16,
+        "revenue": {
+            "value": 27564.80078125
+        },
+        "veh": {
+            "value": 16
+        }
+    },
+    {
+        "key": {
+            "retailed": "FY_23_and_before",
+            "lob": "Yodha_Ace_EV",
+            "planTen": "3Y"
+        },
+        "doc_count": 1,
+        "revenue": {
+            "value": 4651.56005859375
+        },
+        "veh": {
+            "value": 1
+        }
+    }
+]
